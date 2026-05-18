@@ -17,7 +17,7 @@ function ServiceCard({ icon, title, description, features }) {
         ))}
       </ul>
       
-      <button className="btn btn-secondary card-btn">Learn More</button>
+      <a href="#contact" className="btn btn-secondary card-btn">Learn More</a>
     </div>
   );
 }

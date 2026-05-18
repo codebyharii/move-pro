@@ -40,7 +40,7 @@ function Navbar() {
         </ul>
 
         {/* CTA Button */}
-        <button className="btn btn-primary nav-cta">Get Free Quote</button>
+        <a href="#contact" className="btn btn-primary nav-cta">Get Free Quote</a>
 
         {/* Mobile Hamburger */}
         <div
@@ -63,9 +63,9 @@ function Navbar() {
             {link.label}
           </a>
         ))}
-        <button className="btn btn-primary" style={{ width: '100%' }}>
+        <a href="#contact" className="btn btn-primary" style={{ width: '100%' }} onClick={closeMenu}>
           Get Free Quote
-        </button>
+        </a>
       </div>
     </nav>
   );

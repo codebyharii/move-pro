@@ -63,6 +63,24 @@
 
 .card-btn {
   align-self: flex-start;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              background-color 0.3s ease, 
+              border-color 0.3s ease,
+              color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.card-btn:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+  box-shadow: 0 10px 20px rgba(106, 137, 167, 0.25);
+}
+
+.card-btn:active {
+  transform: translateY(0) scale(0.95);
+  box-shadow: 0 4px 8px rgba(106, 137, 167, 0.15);
 }
 
 /* Respect user motion preferences */

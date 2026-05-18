@@ -134,6 +134,8 @@ button, .btn {
   font-weight: 600;
   cursor: pointer;
   border: none;
+  display: inline-block;
+  text-align: center;
   /* Specific transitions only — never use 'all' */
   transition: background-color var(--transition-normal),
               color var(--transition-normal),
@@ -154,12 +156,14 @@ button, .btn {
 
 .btn-primary:hover {
   background-color: var(--color-primary-dark);
+  color: var(--color-white);
   transform: translate3d(0, -2px, 0);
   box-shadow: 0 10px 15px -3px rgba(106, 137, 167, 0.3);
 }
 
 .btn-primary:active {
   background-color: #4A6A88;
+  color: var(--color-white);
   transform: translate3d(0, 0, 0);
 }
 
@@ -173,6 +177,7 @@ button, .btn {
 
 .btn-secondary:hover {
   background-color: var(--color-gray-light);
+  color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
 }
 

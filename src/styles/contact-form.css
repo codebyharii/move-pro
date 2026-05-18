@@ -1,6 +1,10 @@
 .contact-section {
   padding: 64px 0;
   background-color: var(--color-white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center center;
 }
 
 .contact-wrapper {

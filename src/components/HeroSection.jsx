@@ -22,8 +22,8 @@ function HeroSection() {
             We handle the heavy lifting, you enjoy the ease.
           </p>
           <div className="hero-buttons">
-            <button className="btn btn-primary">Get Free Quote</button>
-            <button className="btn btn-secondary">See Our Services</button>
+            <a href="#contact" className="btn btn-primary">Get Free Quote</a>
+            <a href="#services" className="btn btn-secondary">See Our Services</a>
           </div>
 
           {/* Trust indicators */}

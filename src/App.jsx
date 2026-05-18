@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 
 // Lazy-load below-the-fold sections so the hero paints instantly
 const ServicesSection = lazy(() => import('./components/ServicesSection'));
+const AboutSection = lazy(() => import('./components/AboutSection'));
 const ContactForm = lazy(() => import('./components/ContactForm'));
 const Footer = lazy(() => import('./components/Footer'));
 
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <Suspense fallback={<div style={{ minHeight: '50vh' }} />}>
           <ServicesSection />
+          <AboutSection />
           <ContactForm />
         </Suspense>
       </main>

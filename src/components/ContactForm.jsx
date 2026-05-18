@@ -189,21 +189,21 @@ function ContactForm() {
               <span className="info-icon">📞</span>
               <div>
                 <p className="info-label">Phone</p>
-                <p className="info-value">+91 98765 43210</p>
+                <p className="info-value">+91 94735 62113</p>
               </div>
             </div>
             <div className="info-item">
               <span className="info-icon">📧</span>
               <div>
                 <p className="info-label">Email</p>
-                <p className="info-value">hello@movepro.in</p>
+                <p className="info-value">hariom.info07@gmail.com</p>
               </div>
             </div>
             <div className="info-item">
               <span className="info-icon">📍</span>
               <div>
                 <p className="info-label">Address</p>
-                <p className="info-value">123 Main Street, City, State 123456</p>
+                <p className="info-value">muradnagar ghaziabad 201206</p>
               </div>
             </div>
             <div className="info-item">
